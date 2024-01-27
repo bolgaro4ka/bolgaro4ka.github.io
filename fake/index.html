@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        .main {width: 100vw; height: 100vh; background-color: #0078d7; align-items:  center; display: flex; justify-content: center; text-align: center; background-size: 100vw; background-repeat: no-repeat;}
+        #work, #complete, #turn {color: white; font-family: 'Segoe UI'; font-size: 18; padding: 1px; font-weight: 350;}
+        img {padding-bottom: 4px;}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="content">
+            <img src="img/loader (1).gif" width="40">
+            <p id="work">Работа с обновлениями</p>
+            <p id="complete" class="0">Завершено: 0%</p>
+            <p id="turn">Не выключайте компьютер</p>
+        </div>
+    </div>
+    <script>
+        complete = document.getElementById("complete")
+        work = document.getElementById("work")
+        turn = document.getElementById("turn")
+        complete.addEventListener("click", (e)=>{complete.className=parseInt(complete.className)+1; complete.innerText = `Завершено: ${complete.className}%`})
+        turn.addEventListener("click", ()=>{document.getElementsByClassName('main')[0].innerHTML = '', document.getElementsByClassName('main')[0].style.backgroundImage = 'url("img/death.png")'})
+        work.addEventListener("click", ()=>{document.getElementsByClassName('main')[0].style.backgroundColor = "black"})
+    </script>
+</body>
+</html>
