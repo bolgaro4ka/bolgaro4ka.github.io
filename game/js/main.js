@@ -18,7 +18,7 @@ mf.addEventListener('keypress', (e) => {
         cmd.from_user.push(mf.value.split('\n')[mf.value.split('\n').length - 1])
         console.log(cmd.from_user)
             if (cmd.from_user[cmd.from_user.length - 1] == 'help'){
-                mf.value += '\n] crerateuser <name> - create new user\n  cat <fileName> - open file\n  cd <folder> - go to directory\n  dir - the folder you are in\n  start <username> <password> - login to user'
+                mf.value += '\n] createuser <name> - create new user\n  cat <fileName> - open file\n  cd <folder> - go to directory\n  dir - the folder you are in\n  start <username> <password> - login to user'
                 cmd.from_game.push('helpMSG')
                 
             }
@@ -55,7 +55,7 @@ mf.addEventListener('keypress', (e) => {
                 
             }
             else if ('start' == cmd.from_user[cmd.from_user.length - 1].split(' ')[0]){
-                if (cmd.from_user[cmd.from_user.length - 1].split(' ')[1] == window.username && cmd.from_user[cmd.from_user.length - 1].split(' ')[2] == 'youaregoodboy'){
+                if (cmd.from_user[cmd.from_user.length - 1].split(' ')[1] == window.username && cmd.from_user[cmd.from_user.length - 1].split(' ')[2] == 'youaregoodboy' &&  '' != window.username){
                 mf.value +=`\n] Fhank you for playing, ${window.username}! Game by Bolgaro4ka`
                 cmd.from_game.push('Crur')
             }
