@@ -25,7 +25,7 @@ mf.addEventListener('keypress', (e) => {
             else if (cmd.from_user[cmd.from_user.length - 1] == 'dir'){
                 mf.value += `\n] You are in ${folder.join('\\')}`
                 if (window.folder.join('') == 'B:'){
-                    mf.value += `\nsyspass.txt  |  3301 bit  `
+                    mf.value += `\n  syspass.txt  |  3301 bit  `
                 }
 
 
