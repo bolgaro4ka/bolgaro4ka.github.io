@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+::selection {
+    background-color: green;
+    color: black;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+textarea {
+    width: 100%;
+    cursor: none;
+    height: 101%;
+    border: none;
+    background-color: black;
+    color: green;
+    scrollbar-color: green black;
+    resize: none;
+    caret-color: green;
+    caret-shape: block;
+    padding: 1px;
+}
+
+textarea:focus {
+    border: none;
+}
