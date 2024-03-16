@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#map {
+    background-image: url(../img/image.png);
+    width: 2953px;
+    height: 1622px;
+    background-repeat: no-repeat;
+}
+
+.dot {
+    width: 30px;
+    height:30px;
+    border-radius: 1000px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:red;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.a1 {
+    top: 555px;
+    left: 750px;
+    background-color:blue;
+}
+
+.a2 {
+    top: 735px;
+    left: 812px;
+    background-color:blue;
+}
+.a3 {
+    top: 520px;
+    left: 2475px;
+    background-color:blue;
+}
+.a5 {
+    top: 1120px;
+    left: 2345px;
+    background-color:blue;
+}
+.a6 {
+    top: 1256px;
+    left: 2738px;
+    background-color:blueviolet;
+}
+.a7 {
+    top: 880px;
+    left: 2717px;
+    background-color:blueviolet;
+}
+.a8 {
+    top: 840px;
+    left: 2707px;
+    background-color:blueviolet;
+}
+.a9 {
+    top: 830px;
+    left: 2708px;
+    background-color:blueviolet;
+}
+.a10 {
+    top: 685px;
+    left: 2640px;
+    background-color:aqua;
+}
+.a11 {
+    top: 835px;
+    left: 2630px;
+    background-color:aqua;
+}
+.a12 {
+    top: 294px;
+    left: 2491px;
+    background-color:aqua;
+}
+.a13 {
+    top: 670px;
+    left: 1890px;
+    background-color:aqua;
+}
+.a14 {
+    top: 1170px;
+    left: 690px;
+    background-color:aqua;
+}
+.a15 {
+    top: 1132px;
+    left: 615px;
+    background-color:aqua;
+}
+.a16 {
+    top: 1135px;
+    left: 595px;
+    background-color:aqua;
+}
+.a17 {
+    top: 1190px;
+    left: 467px;
+    background-color:aqua;
+}
+.a18 {
+    top: 1180px;
+    left: 312px;
+    background-color:aqua;
+}
+.a19 {
+    top: 1170px;
+    left: 138px;
+    background-color:aqua;
+}
+.a20 {
+    top: 1180px;
+    left: 175px;
+    background-color:aqua;
+}
+.a21 {
+    top: 1120px;
+    left: 130px;
+    background-color:aqua;
+}
+.a22 {
+    top: 1132px;
+    left: 128px;
+    background-color:aqua;
+}
+.a23 {
+    top: 1180px;
+    left: 250px;
+    background-color:aqua;
+}
+.a24 {
+    top: 1272px;
+    left: 242px;
+    background-color:aqua;
+}
+.a25 {
+    top: 1296px;
+    left: 279px;
+    background-color:aqua;
+}
+.a26 {
+    top: 1263px;
+    left: 274px;
+    background-color:aqua;
+}
+.a27 {
+    top: 1435px;
+    left: 353px;
+    background-color:aqua;
+}
+.a28 {
+    top: 693px;
+    left: 213px;
+    background-color:aqua;
+}
+.a29 {
+    top: 1046px;
+    left: 332px;
+    background-color:aqua;
+}
+.a30 {
+    top: 1058px;
+    left: 315px;
+    background-color:olive;
+}
+.a31 {
+    top: 1037px;
+    left: 332px;
+    background-color:olive;
+}
+.a33 {
+    top: 726px;
+    left: 474px;
+    background-color:black;
+}
+.a34 {
+    top: 830px;
+    left: 505px;
+    background-color:black;
+}
+.a35 {
+    top: 923px;
+    left: 347px;
+    background-color:black;
+}
+.a36 {
+    top: 1023px;
+    left: 330px;
+    background-color:black;
+}
+.a37 {
+    top: 1078px;
+    left: 385px;
+    background-color:black;
+}
+.a38 {
+    top: 1228px;
+    left: 348px;
+    background-color:black;
+}
+.a39 {
+    top: 598px;
+    left: 707px;
+    background-color:black;
+}
+.a40 {
+    top: 1180px;
+    left: 890px;
+    background-color:black;
+}
+.a41 {
+    top: 405px;
+    left: 2320px;
+    background-color:black;
+}
+.a42 {
+    top: 1147px;
+    left: 125px;
+    background-color:gold;
+}
+.a43 {
+    top: 1142px;
+    left: 134px;
+    background-color:gold;
+}
+.a44 {
+    top: 1265px;
+    left: 249px;
+    background-color:gold;
+}
+.a45 {
+    top: 1287px;
+    left: 284px;
+    background-color:gold;
+}
+.a46 {
+    top: 1355px;
+    left: 333px;
+    background-color:gold;
+}
+.a47 {
+    top: 1445px;
+    left: 345px;
+    background-color:gold;
+}
+.a48 {
+    top: 1357px;
+    left: 410px;
+    background-color:gold;
+}
+.a49 {
+    top: 1180px;
+    left: 506px;
+    background-color:gold;
+}
+.a50 {
+    top: 1170px;
+    left: 520px;
+    background-color:black;
+}
+.a51 {
+    top: 1180px;
+    left: 600px;
+    background-color:gold;
+}
+.a52 {
+    top: 1140px;
+    left: 715px;
+    background-color:gold;
+}
+.a53 {
+    top: 1280px;
+    left: 672px;
+    background-color:gold;
+}
+.a54 {
+    top: 1340px;
+    left: 1085px;
+    background-color:gold;
+}
