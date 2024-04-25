@@ -45,8 +45,10 @@
                 <div class="row justify-content-center">
                     <div class="col-12" style="text-align: center;">
                     <h2>Мини-карта</h2></div>
-                    <div class="col-12">
-                         <iframe width="752" height="423" src="https://www.youtube.com/embed/sdoji25T7r0?&autoplay=1" title="Rick Astley   Never Gonna Give You Up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="col-12 rickroll">
+                        <iframe src="html/map.html"></iframe>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -91,5 +93,12 @@
             <p>Создано на Bootstrap 4. <span style="color: #3f2aff;">Автор: Федосов Никита</span></p>
         </div>
     </div>
+<script>
+    iframe = document.querySelector('.rickroll');
+    window.addEventListener('click', function(e) {
+        iframe.innerHTML = `<iframe width="752" height="423" src="https://www.youtube.com/embed/sdoji25T7r0?&autoplay=1" title="Rick Astley   Never Gonna Give You Up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    })
+</script>
+
 </body>
 </html>
