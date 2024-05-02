@@ -97,4 +97,15 @@ body {
   width: 200px;
   height: 200px;
   background-color: forestgreen;
+}
+
+.author {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

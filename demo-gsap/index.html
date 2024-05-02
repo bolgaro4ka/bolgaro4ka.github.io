@@ -45,6 +45,9 @@
                 <div class="drag__cube-rotate"></div>
             </div>
         </section>
+        <section class="author">
+            <h2>Создано Bolgaro4ka (c ❤️) для демонстрации своих возможностей в GSAP</h2>
+        </section>
     </main>
 
     <footer>
@@ -148,6 +151,19 @@
             bounds: ".drag",
             inertia: true
             });
+    </script>
+
+    <script>
+        gsap.to('.author', {
+            scale: 2,
+            yoyo: true,
+
+            scrollTrigger: {
+                trigger: ".author",
+                scrub: 1,
+                pin: true,
+            }
+        })
     </script>
 </body>
 

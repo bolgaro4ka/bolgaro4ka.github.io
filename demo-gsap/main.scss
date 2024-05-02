@@ -102,3 +102,11 @@ body {
         background-color: forestgreen;
     }
 }
+
+.author {
+    @include fullHeight;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
