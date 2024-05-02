@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.hero__text {
+  font-size: 5vh;
+}
+.hero__text-html {
+  color: red;
+}
+.hero__text-js {
+  color: yellow;
+}
+.hero__text-css {
+  color: blue;
+}
+.hero__text-gsap {
+  color: rgb(103, 203, 2);
+}
+
+.horizontal {
+  display: flex;
+  width: 300vw;
+  overflow-x: hidden;
+}
+.horizontal__block {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-gsap {
+  background-color: rgb(103, 203, 2);
+}
+
+.motPath {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.motPath__car {
+  background-color: rgb(103, 203, 2);
+  padding: 10px;
+}
+
+.drag {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+}
+.drag h2 {
+  position: absolute;
+  color: #555;
+  font-size: 4vw;
+}
+.drag__cube-move {
+  width: 200px;
+  height: 200px;
+  background-color: chartreuse;
+  border-radius: 1000000000000px;
+}
+.drag__cube-rotate {
+  width: 200px;
+  height: 200px;
+  background-color: forestgreen;
+}/*# sourceMappingURL=main.css.map */

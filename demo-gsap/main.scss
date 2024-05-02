@@ -1,0 +1,104 @@
+@mixin fullHeight {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    @include fullHeight;
+    background-color: black;
+    color: white;
+
+    &__text {
+        font-size: 5vh;
+        &-html {
+            color: red;
+        };
+
+        &-js {
+            color: yellow;
+        };
+
+        &-css {
+            color: blue
+        };
+
+        &-gsap {
+            color: rgb(103, 203, 2);
+        };
+    }
+}
+
+.horizontal {
+    display: flex;
+    width: 300vw;
+    overflow-x: hidden;
+    &__block {
+        @include fullHeight;
+        width: 100vw;
+    }
+}
+
+.bg {
+    &-red {
+        background-color: red;
+    }
+    &-blue {
+        background-color: blue;
+    }
+    &-gsap {
+        background-color: rgb(103, 203, 2);
+    }
+}
+
+.motPath {
+    @include fullHeight;
+    flex-direction: column;
+
+    &__car {
+        background-color: rgb(103, 203, 2);
+        padding: 10px;
+    }
+}
+
+.drag {
+    @include fullHeight;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    h2 {
+        position: absolute;
+        color: #555;
+        font-size: 4vw;
+        
+    }
+    &__cube-move {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        border-radius: 1000000000000px;
+    }
+
+    &__cube-rotate {
+        width: 200px;
+        height: 200px;
+        background-color: forestgreen;
+    }
+}
